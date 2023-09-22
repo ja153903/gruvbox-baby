@@ -437,7 +437,7 @@ function M.setup(config)
     NeoTreeNormalNC = { fg = c.foreground, bg = c.background_dark },
     NeoTreeFloatNormal = { fg = c.foreground, bg = c.background_dark },
     NeoTreeFloatBorder = { bg = c.background_dark },
-    NeoTreeFloatTitle = { fg = c.background_dark, bg = c.milk },
+    NeoTreeFloatTitle = { fg = c.milk, bg = c.milk },
   }
 
   if config.telescope_theme then
