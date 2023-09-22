@@ -433,6 +433,8 @@ function M.setup(config)
     DashboardFooter = { fg = c.blue_gray },
 
     -- NeoTree
+    NeoTreeNormal = { fg = c.foreground, bg = c.background_dark },
+    NeoTreeNormalNC = { fg = c.foreground, bg = c.background_dark },
     NeoTreeFloatBorder = { bg = c.background_dark },
     NeoTreeFloatTitle = { fg = c.background_dark, bg = c.milk },
   }
