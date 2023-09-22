@@ -137,7 +137,7 @@ function M.setup(config)
     ["@text.strong"] = { fg = c.soft_yellow, style = "bold" },
     ["@text.emphasis"] = { fg = c.soft_yellow, style = "italic" },
     ["@text.underline"] = { fg = c.soft_yellow, style = "underline" },
-		["@text.strike"] = { fg = c.medium_gray, style = "strikethrough" },
+    ["@text.strike"] = { fg = c.medium_gray, style = "strikethrough" },
     ["@text.title"] = { fg = c.soft_yellow },
     ["@text.literal"] = { fg = c.soft_yellow },
     ["@uri"] = { fg = c.soft_yellow },
@@ -431,6 +431,10 @@ function M.setup(config)
     DashboardShortCut = { fg = c.light_blue },
     DashboardCenter = { fg = c.bright_yellow },
     DashboardFooter = { fg = c.blue_gray },
+
+    -- NeoTree
+    NeoTreeFloatBorder = { bg = c.background_dark },
+    NeoTreeFloatTitle = { fg = c.background_dark, bg = c.milk },
   }
 
   if config.telescope_theme then
