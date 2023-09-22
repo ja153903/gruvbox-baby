@@ -435,7 +435,8 @@ function M.setup(config)
     -- NeoTree
     NeoTreeNormal = { fg = c.foreground, bg = c.background_dark },
     NeoTreeNormalNC = { fg = c.foreground, bg = c.background_dark },
-    NeoTreeTitleBar = { fg = c.soft_yellow, bg = c.background_dark },
+    -- NeoTreeTitleBar = { fg = c.soft_yellow, bg = c.background_dark },
+    NeoTreeTitleBar = { fg = c.background, bg = c.forest_green },
     NeoTreeFloatNormal = { fg = c.foreground, bg = c.background_dark },
     NeoTreeFloatBorder = { bg = c.background_dark },
     NeoTreeFloatTitle = {
