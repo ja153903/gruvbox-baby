@@ -431,18 +431,6 @@ function M.setup(config)
     DashboardShortCut = { fg = c.light_blue },
     DashboardCenter = { fg = c.bright_yellow },
     DashboardFooter = { fg = c.blue_gray },
-
-    -- NeoTree
-    NeoTreeNormal = { fg = c.foreground, bg = c.background_dark },
-    NeoTreeNormalNC = { fg = c.foreground, bg = c.background_dark },
-    -- NeoTreeTitleBar = { fg = c.soft_yellow, bg = c.background_dark },
-    NeoTreeTitleBar = { fg = c.background, bg = c.forest_green },
-    NeoTreeFloatNormal = { fg = c.foreground, bg = c.background_dark },
-    NeoTreeFloatBorder = { bg = c.background_dark },
-    NeoTreeFloatTitle = {
-      bg = c.milk,
-      fg = c.background,
-    },
   }
 
   if config.telescope_theme then
