@@ -324,8 +324,6 @@ function M.setup(config)
     NvimTreeGitDeleted = { fg = c.red },
 
     -- NeoTree
-    NeoTreeNormal = { fg = c.foreground, bg = c.background_dark },
-    NeoTreeNormalNC = { fg = c.foreground, bg = c.background_dark },
     NeoTreeVertSplit = { fg = c.background, bg = c.background },
     NeoTreeWinSeparator = { fg = c.background, bg = c.background },
     NeoTreeDirectoryIcon = { fg = c.soft_yellow },
@@ -431,6 +429,17 @@ function M.setup(config)
     DashboardShortCut = { fg = c.light_blue },
     DashboardCenter = { fg = c.bright_yellow },
     DashboardFooter = { fg = c.blue_gray },
+
+    -- NeoTree
+    NeoTreeNormal = { fg = c.foreground, bg = c.background_dark },
+    NeoTreeNormalNC = { fg = c.foreground, bg = c.background_dark },
+    NeoTreeTitleBar = { fg = c.background, bg = c.forest_green },
+    NeoTreeFloatNormal = { fg = c.foreground, bg = c.background_dark },
+    NeoTreeFloatBorder = { bg = c.background_dark },
+    NeoTreeFloatTitle = {
+      bg = c.milk,
+      fg = c.background,
+    },
   }
 
   if config.telescope_theme then
